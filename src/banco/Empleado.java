@@ -1,6 +1,7 @@
 package banco;
 
 public class Empleado {
+
     private String nombre;
     private String apellidos;
     private String dni;
@@ -26,6 +27,12 @@ public class Empleado {
     }
 
     public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    public void Empleado (String nombre, String apellidos, String dni) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
         this.dni = dni;
     }
 }
